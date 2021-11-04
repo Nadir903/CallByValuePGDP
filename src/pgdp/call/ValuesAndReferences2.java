@@ -9,7 +9,8 @@ public class ValuesAndReferences2 {
     // Was wird hier ausgegeben? Warum?
     // Versuche, die Methode sumAndDifference() so umzuschreiben,
     // dass sie die spezifizierten Anforderungen erfüllt.
-    // Wo stößt du auf Probleme?
+    // Wo stößt du auf Probleme? Kann man die Methode so einfach
+    // fixen?
     public static void foo() {
         int a = 7;
         int b = 4;
