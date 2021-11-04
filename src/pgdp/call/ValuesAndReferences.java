@@ -6,6 +6,7 @@ public class ValuesAndReferences {
         ref();
     }
 
+    // Was tut folgender Code? Erkläre das Ergebnis.
     public static void ref() {
         int n = 1;
         A a1 = new A(1);
