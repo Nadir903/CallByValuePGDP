@@ -3,11 +3,11 @@ package pgdp.call;
 public class ValuesAndReferences {
 
     public static void main(String[] args) {
-        ref();
+        foo();
     }
 
     // Was tut folgender Code? Erkläre das Ergebnis.
-    public static void ref() {
+    public static void foo() {
         int n = 1;
         A a1 = new A(1);
         A a2 = new A(1);
