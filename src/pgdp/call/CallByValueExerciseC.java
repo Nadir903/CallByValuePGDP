@@ -7,7 +7,7 @@ public class CallByValueExerciseC {
     }
 
     // Was wird in dieser Methode ausgegeben?
-    // Kannst du die Methode rotate() umschreiben,
+    // Kannst du die Methode swap() umschreiben,
     // sodass sie die Anforderungen erfüllt, ohne
     // ihre Signatur zu ändern?
     public static void foo() {
