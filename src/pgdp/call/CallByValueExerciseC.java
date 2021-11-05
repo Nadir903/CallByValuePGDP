@@ -1,6 +1,6 @@
 package pgdp.call;
 
-public class ValuesAndReferences3 {
+public class CallByValueExerciseC {
 
     public static void main(String[] args) {
         foo();
