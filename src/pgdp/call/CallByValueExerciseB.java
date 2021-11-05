@@ -23,6 +23,6 @@ public class CallByValueExerciseB {
     public static void sumAndDifference(int a, int b) {
         int tmp = a;
         a = a + b;
-        b = tmp - a;
+        b = b - tmp;
     }
 }
