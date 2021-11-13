@@ -24,6 +24,14 @@ public class CallByValueExerciseC {
         p1 = p2;
         p2 = tmp;
     }
+    public static void swapReally(Point p1, Point p2) {
+        int xTmp= p1.x;
+        int yTmp= p1.y;
+        p1.x= p2.x;
+        p1.y= p2.y;
+        p2.x= xTmp;
+        p2.y= yTmp;
+    }
 }
 
 class Point {
