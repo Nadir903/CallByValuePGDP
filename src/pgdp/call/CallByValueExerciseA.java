@@ -16,9 +16,9 @@ public class CallByValueExerciseA {
         setAttribute(a1);
         setObject(a2);
 
-        System.out.println(n);
-        System.out.println(a1.n);
-        System.out.println(a2.n);
+        System.out.println(n);              //1
+        System.out.println(a1.n);           //2
+        System.out.println(a2.n);           //1
     }
 
     static void setNumber(int n) {
@@ -34,7 +34,6 @@ public class CallByValueExerciseA {
 
 class A {
     int n;
-
     public A(int n) {
         this.n = n;
     }
